@@ -1,5 +1,6 @@
-import Veggie from "../components/Veggie"
-import Popular from "../components/Popular"
+import Veggie from "../components/Veggie";
+import Popular from "../components/Popular";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
@@ -7,7 +8,7 @@ function Home() {
       <Veggie />
       <Popular />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
